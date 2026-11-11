@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "projects": {
+    "example/app": [
+      {
+        "env": "GH_TOKEN",
+        "secret": "github-app",
+        "ttl": "8h",
+        "allow": [
+          {"host": "api.github.com", "methods": ["GET"],
+           "paths": ["/repos/example/app/", "/repos/example/app"]},
+          {"host": "api.github.com", "methods": ["POST"],
+           "paths": ["/graphql"]},
+          {"host": "github.com", "methods": ["GET", "POST"],
+           "paths": ["/example/app.git/info/refs", "/example/app.git/git-upload-pack", "/example/app.git/git-receive-pack",
+                     "/example/app/info/refs", "/example/app/git-upload-pack", "/example/app/git-receive-pack"]}
+        ]
+      },
+      {
+        "env": "CLAUDE_CODE_OAUTH_TOKEN",
+        "secret": "claude-oauth",
+        "ttl": "8h",
+        "token_prefix": "sk-ant-oat01-",
+        "allow": [
+          {"host": "api.anthropic.com", "methods": ["GET", "HEAD", "POST"],
+           "paths": ["/v1/messages", "/v1/messages/count_tokens", "/api/hello", "/api/oauth/", "/api/event_logging/"]}
+        ]
+      }
+    ]
+  }
+}
