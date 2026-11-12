@@ -6,6 +6,14 @@ The name: a credenza was the cabinet where a servant tasted food for poison befo
 
 Specification: [docs/spec.md](docs/spec.md).
 
+Watch it work — 20 seconds: [docs/credenza-launch.mp4](docs/credenza-launch.mp4).
+
+<p align="center">
+  <a href="docs/credenza-launch.mp4">
+    <img src="docs/credenza-launch.gif" alt="Launch video preview: AI agents need access. Not your credentials." />
+  </a>
+</p>
+
 ## Commands
 
 Every subcommand takes `-dir <dir>` (default `/srv/credenza`). Flags go before positional arguments.
@@ -42,6 +50,8 @@ Tests run on macOS with `-race`. On Linux the race detector needs cgo and a C co
 
 ## Docs
 
+- [docs/user-manual.md](docs/user-manual.md): the user manual: what you can do with credenza, task by task, with a FAQ and a glossary.
+- [docs/credenza-launch.mp4](docs/credenza-launch.mp4): the 20-second launch video (animated preview at the top of this page).
 - [docs/spec.md](docs/spec.md): what credenza does and guarantees: tokens and leases, control and data planes, store, audit log, security model.
 - [docs/policy.md](docs/policy.md): the policy file format, when changes apply, the lease (`ttl`), path matching and how to widen a rule.
 - [docs/runbook.md](docs/runbook.md): the reference deployment on a Raspberry Pi: install, unlock after a reboot, smoke test, backup, upgrade and audit log rotation.
