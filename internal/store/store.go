@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Package store keeps the secrets and the CA in one file
 // encrypted with AES-256-GCM under a PBKDF2-HMAC-SHA256 key.

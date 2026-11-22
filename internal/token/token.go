@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Package token keeps the temporary tokens handed out by mint, in memory
 // only. Each token carries the scope it was minted with: task, project,

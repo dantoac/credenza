@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Package control is the broker's control plane, one request per
 // connection on two Unix sockets, and the client that turns the answer

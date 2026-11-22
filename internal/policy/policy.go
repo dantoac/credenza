@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Package policy reads the broker's policy file: which grants each
 // project gets on mint, and which host, method and path each grant's

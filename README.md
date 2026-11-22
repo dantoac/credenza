@@ -62,8 +62,7 @@ Tests run on macOS with `-race`. On Linux the race detector needs cgo and a C co
 
 Copyright (C) 2026 Daniel Aguayo.
 
-credenza is free software: you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free
-Software Foundation, either version 3 of the License, or (at your option)
-any later version. It is distributed WITHOUT ANY WARRANTY; see
-[LICENSE](LICENSE) for details.
+Licensed under the Apache License, Version 2.0; see [LICENSE](LICENSE).
+Unless required by applicable law or agreed to in writing, credenza is
+distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND.

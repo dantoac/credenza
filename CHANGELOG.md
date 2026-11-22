@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- credenza is now licensed under the Apache License 2.0 instead of the
+  GNU GPL v3 or later. Copies of 2.0.0 already distributed keep their GPL
+  terms.
+
 ## 2.0.0
 
 ### Breaking

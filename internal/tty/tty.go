@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Package tty reads passphrases and secret values from a terminal without
 // echoing them, using stty on the input file.

@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Command broker keeps real secrets in an encrypted store and swaps
 // per-task temporary tokens for them inside a TLS-intercepting proxy.

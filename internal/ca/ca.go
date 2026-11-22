@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Package ca creates the credenza CA and issues the per-host leaf certificates
 // the proxy presents when it intercepts a CONNECT tunnel.

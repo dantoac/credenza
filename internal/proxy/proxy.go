@@ -1,5 +1,5 @@
 // Copyright (C) 2026 Daniel Aguayo
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: Apache-2.0
 
 // Package proxy is the broker's data plane: an HTTP proxy that accepts
 // CONNECT from listed clients, intercepts the TLS tunnel with a leaf
